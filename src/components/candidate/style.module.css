@@ -2,12 +2,9 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: #82A0BC;
     padding: 40px;
     border-radius: 20px;
-    color: #A7CCED;
     font-weight: bold;
-    box-shadow: 0 0 15px 5px #304D6D;
 }
 
 .reactLogo {
@@ -17,7 +14,7 @@
     display: flex;
     align-items: center;
     gap: 10px;
-    background-color: #304D6D;
+    background-color: #333533;
     padding: 10px;
     border-radius: 20px;
     font-size: 20px;
@@ -34,7 +31,8 @@
 
 .avatar>img {
     width: 300px;
-    border-radius: 50px;
+    border-bottom-left-radius: 35px;
+    border-top-right-radius: 35px;
 }
 
 .expRealTime {
@@ -44,9 +42,9 @@
     display: flex;
     align-items: center;
     gap: 10px;
-    background-color: #304D6D;
+    background-color: #333533;
     padding: 10px;
-    border-radius: 20px;
+    border-radius: 15px;
 }
 
 .expRealTime img {
@@ -57,7 +55,7 @@
 .name {
     padding-top: 40px;
     font-size: 24px;
-    color: whitesmoke;
+    color: #CFDBD5;
 }
 
 @keyframes spin {

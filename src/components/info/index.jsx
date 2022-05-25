@@ -1,7 +1,10 @@
 import React, {useState} from "react"
 import ss from "./style.module.css"
+import {useSelector} from "react-redux";
+import {dark, light} from "../themer";
 
 export const Info = () => {
+    const {theme} = useSelector(state => state.theme)
     const [page, setPage] = useState(0)
 
     const titles = [
@@ -30,17 +33,29 @@ export const Info = () => {
         const maxPage = titles.length - 1
         page === 0 ? setPage(maxPage) : setPage(page - 1)
     }
+
     return (
-        <div className={ss.wrapper}>
+        <div className={ss.wrapper}
+             style={{
+                 backgroundColor: theme === "light" ? light.bigBlock : dark.bigBlock,
+                 boxShadow: theme === "light"
+                     ? `0 0 10px 0px ${light.bigBlockShadow}`
+                     : `0 0 10px 0px ${dark.bigBlockShadow}`
+             }}>
             <div className={ss.header}>
                 <button onClick={backPage}>back</button>
-                <div className={ss.title}>
+                <div className={ss.title}
+                     style={{
+                         backgroundColor: theme === "light" ? light.infoTitle : dark.infoTitle,
+                         color: theme === "light" ? light.infoTitleFont : dark.infoTitleFont
+                     }}>
                     {titles[page]}
                 </div>
                 <button onClick={nextPage}>next</button>
             </div>
 
-            <div className={ss.info}>
+            <div className={ss.info}
+                 style={{color: theme === "light" ? light.infoFont : dark.infoFont}}>
                 {posts[page]}
             </div>
         </div>

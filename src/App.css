@@ -17,7 +17,6 @@
     flex-wrap: wrap;
     gap: 50px;
     justify-content: center;
-    background-color: #A7CCED;
 }
 
 @media screen and (max-width: 768px) {

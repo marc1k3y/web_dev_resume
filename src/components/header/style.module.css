@@ -4,13 +4,11 @@
     justify-content: space-between;
     height: 50px;
     padding: 0 20px;
-    background-color: #304D6D;
 }
 
 .logo {
     font-size: 24px;
     font-weight: bold;
-    color: white;
 }
 
 .buttonBar {
