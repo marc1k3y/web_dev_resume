@@ -1,7 +1,7 @@
-#Mark Naberezhnykh
+# Mark Naberezhnykh
 
-##Web Fullstack Developer
+## Web Fullstack Developer
 
-[live demo](https://github.com/user/repo/blob/branch/other_file.md)
+[live demo](https://marc1k3y.github.io/web_dev_resume/)
 
-[REACT, REDUX]
+### [REACT, REDUX]
