@@ -1,0 +1,43 @@
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    background-color: #82A0BC;
+    padding: 20px;
+    border-radius: 20px;
+    max-width: 40vw;
+    box-shadow: 0 0 15px 5px #304D6D;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 0 20px;
+}
+
+.title {
+    background-color: #304D6D;
+    padding: 10px 30px;
+    border-radius: 20px;
+    color: white;
+    font-weight: bold;
+}
+
+.rightAnimation {
+    animation: right linear 0.2s;
+}
+
+@keyframes right {
+    100% {
+        margin-right: 60px;
+    }
+}
+
+@media screen and (max-width: 920px) {
+    .wrapper {
+        max-width: 100vw;
+        width: 380px;
+    }
+}

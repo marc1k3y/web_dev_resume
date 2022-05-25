@@ -1,0 +1,16 @@
+.wrapper {
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #82A0BC;
+    padding: 20px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    box-shadow: 0 0 15px 5px #304D6D;
+}
+
+.wrapper>button {
+    padding: 10px 20px;
+}
