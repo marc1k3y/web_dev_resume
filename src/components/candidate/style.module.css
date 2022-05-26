@@ -2,15 +2,15 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 40px;
+    padding: 20px;
     border-radius: 20px;
     font-weight: bold;
 }
 
 .reactLogo {
     position: absolute;
-    top: -30px;
-    left: -30px;
+    top: -10px;
+    left: -10px;
     display: flex;
     align-items: center;
     gap: 10px;
@@ -21,7 +21,7 @@
 }
 
 .reactLogo img {
-    width: 50px;
+    width: 35px;
     animation: spin linear infinite 10s;
 }
 
@@ -30,25 +30,26 @@
 }
 
 .avatar>img {
-    width: 300px;
-    border-bottom-left-radius: 35px;
-    border-top-right-radius: 35px;
+    width: 290px;
+    border-bottom-left-radius: 20px;
+    border-top-right-radius: 20px;
 }
 
 .expRealTime {
     position: absolute;
-    bottom: -20px;
-    right: -20px;
+    bottom: -10px;
+    right: -10px;
     display: flex;
     align-items: center;
     gap: 10px;
     background-color: #333533;
     padding: 10px;
     border-radius: 15px;
+    font-size: 14px;
 }
 
 .expRealTime img {
-    height: 35px;
+    height: 30px;
     animation: clockSpin infinite 10s;
 }
 

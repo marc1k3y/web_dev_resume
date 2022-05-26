@@ -1,9 +1,9 @@
 import React from "react"
 import ss from "./style.module.css"
 import {Document, Page} from "react-pdf"
-import pdf from "../../assets/sample.pdf"
-import {useSelector} from "react-redux";
-import {dark, light} from "../themer";
+import pdf from "../../assets/naberezhnykh_mark.pdf"
+import {useSelector} from "react-redux"
+import {dark, light} from "../themer"
 
 export const Cv = () => {
     const {theme} = useSelector(state => state.theme)
