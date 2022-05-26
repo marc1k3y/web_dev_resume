@@ -4,6 +4,11 @@
     justify-content: space-between;
     height: 50px;
     padding: 0 20px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 200;
 }
 
 .logo {

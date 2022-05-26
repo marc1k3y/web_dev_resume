@@ -17,9 +17,13 @@ export const Header = () => {
     function changeTheme() {
         dispatch(theme === "light" ? setDarkAction() : setLightAction())
     }
+
     return (
         <div className={ss.wrapper}
-             style={{backgroundColor: theme === "light" ? light.header : dark.header}}>
+             style={{
+                 backgroundColor: theme === "light" ? light.header : dark.header,
+                 boxShadow: theme === "light" ? light.headerShadow : dark.headerShadow
+             }}>
             <div className={ss.logo}
                  style={{color: theme === "light" ? light.headerFont : dark.headerFont}}>
                 marck

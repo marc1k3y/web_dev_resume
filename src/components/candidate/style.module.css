@@ -49,13 +49,22 @@
 
 .expRealTime img {
     height: 35px;
-    animation: spin linear infinite 5s;
+    animation: clockSpin infinite 10s;
 }
 
 .name {
     padding-top: 40px;
     font-size: 24px;
     color: #CFDBD5;
+}
+
+@keyframes clockSpin {
+    0% {
+        transform: rotate(180deg);
+    }
+    30% {
+        transform: rotate(0deg);
+    }
 }
 
 @keyframes spin {

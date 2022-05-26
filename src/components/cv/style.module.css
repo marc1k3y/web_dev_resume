@@ -12,3 +12,9 @@
 .wrapper>button {
     padding: 10px 20px;
 }
+
+@media screen and (max-width: 768px) {
+    .wrapper {
+        display: none;
+    }
+}
