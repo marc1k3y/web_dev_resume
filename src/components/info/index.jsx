@@ -43,7 +43,10 @@ export const Info = () => {
                      : `0 0 10px 0px ${dark.bigBlockShadow}`
              }}>
             <div className={ss.header}>
-                <button onClick={backPage}>back</button>
+                <button onClick={backPage}
+                        style={{color: theme === "light" ? light.infoBtnFont : dark.infoBtnFont}}>
+                    back
+                </button>
                 <div className={ss.title}
                      style={{
                          backgroundColor: theme === "light" ? light.infoTitle : dark.infoTitle,
@@ -51,7 +54,10 @@ export const Info = () => {
                      }}>
                     {titles[page]}
                 </div>
-                <button onClick={nextPage}>next</button>
+                <button onClick={nextPage}
+                        style={{color: theme === "light" ? light.infoBtnFont : dark.infoBtnFont}}>
+                    next
+                </button>
             </div>
 
             <div className={ss.info}

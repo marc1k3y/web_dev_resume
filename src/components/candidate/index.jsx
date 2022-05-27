@@ -4,9 +4,9 @@ import reactLogo from "../../assets/react.svg"
 import avatar from "../../assets/avatar.jpg"
 import sandClock from "../../assets/sand_clock.svg"
 import {TimeCounter} from "../timer"
-import {useSelector} from "react-redux";
-import {data} from "./data";
-import {dark, light} from "../themer";
+import {useSelector} from "react-redux"
+import {dark, light} from "../themer"
+import {translate} from "../translate";
 
 export const Candidate = () => {
     const {language} = useSelector(state => state.translate)
@@ -30,7 +30,7 @@ export const Candidate = () => {
                      style={{backgroundColor: theme === "light" ? light.reactLogo : dark.reactLogo}}>
                     <img src={reactLogo} alt={"reactLogo"}/>
                     <p style={{color: theme === "light" ? light.reactLogoFont : dark.reactLogoFont}}>
-                        {language === "ru" ? data.degree.ru : data.degree.en}
+                        {language === "ru" ? translate.degree.ru : translate.degree.en}
                     </p>
                 </div>
                 <img src={avatar} alt={"avatar"}/>
@@ -44,7 +44,7 @@ export const Candidate = () => {
             </div>
             <div className={ss.name}
                  style={{color: theme === "light" ? light.nameFont : dark.nameFont}}>
-                {language === "ru" ? data.name.ru : data.name.en}
+                {language === "ru" ? translate.name.ru : translate.name.en}
             </div>
         </div>
     )

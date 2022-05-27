@@ -17,5 +17,21 @@
 }
 
 .buttonBar {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
 
+.buttonBar>button {
+    background-color: transparent;
+    border: none;
+}
+
+.buttonBar>button:last-child {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.buttonBar img {
+    width: 30px;
 }

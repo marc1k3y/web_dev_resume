@@ -11,4 +11,21 @@
 
 .wrapper>button {
     padding: 10px 20px;
+    background-color: transparent;
+    border: none;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 768px) {
+    .wrapper {
+        padding: 0;
+    }
+    .wrapper>button {
+        cursor: none;
+    }
+    .document {
+        display: none;
+    }
 }
