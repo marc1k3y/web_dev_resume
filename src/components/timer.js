@@ -1,6 +1,6 @@
 export function TimeCounter() {
 
-    const prevTime = 1609459200000
+    const prevTime = 1548993840000
     const currentTime = Date.now()
 
     let diff = currentTime - prevTime
@@ -17,7 +17,8 @@ export function TimeCounter() {
     let seconds = Math.floor(diff / (1000))
     diff -= seconds * (1000)
 
-    const toSeconds = `${days}days ${hours}hours ${mins}min ${seconds}sec`
+    const en = `${days}days ${hours}hours ${mins}min ${seconds}sec`
+    const ru = `${days}д ${hours}ч ${mins}м ${seconds}с`
 
-    return toSeconds
+    return {en, ru}
 }
