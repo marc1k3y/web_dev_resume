@@ -9,12 +9,13 @@ export const dark = {
     reactLogoFont: "#13293D",
     expBack: "#2A628F",
     expFont: "#13293D",
-    nameBack: "#2A628F",
+    nameBack: "#3E92CC",
     nameFont: "#13293D",
     infoTitle: "#3E92CC",
     infoTitleFont: "#16324F",
     infoBtnFont: "#3E92CC",
     infoFont: "#3E92CC",
+    cvInfoLang: "#3E92CC",
     downloadCvBack: "#3E92CC",
     downloadCvFont: "#16324F",
     footerBack: "#3E92CC"
@@ -37,6 +38,7 @@ export const light = {
     infoTitleFont: "#F5CB5C",
     infoBtnFont: "#333533",
     infoFont: "#242423",
+    cvInfoLang: "#242423",
     downloadCvBack: "#333533",
     downloadCvFont: "#F5CB5C",
     footerBack: "#F5CB5C"

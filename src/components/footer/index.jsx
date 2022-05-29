@@ -14,11 +14,19 @@ export const Footer = () => {
     ]
     return (
         <div className={ss.wrapper}
-        style={{backgroundColor: theme === "light" ? light.footerBack : dark.footerBack}}>
-            {socialLinks.map(link =>
-                <a href={link.href} key={link.href} target="_blank" rel="noreferrer">
-                    <img src={link.icon} alt={link.href} />
-                </a>)}
+            style={{ backgroundColor: theme === "light" ? light.footerBack : dark.footerBack }}>
+            <div className={ss.project}>
+                <a href="https://marc1k3y.github.io/hurry-network/"
+                    target="_blank" rel="noreferrer">
+                    Hurry Network
+                </a>
+            </div>
+            <div className={ss.socialLinks}>
+                {socialLinks.map(link =>
+                    <a href={link.href} key={link.href} target="_blank" rel="noreferrer">
+                        <img src={link.icon} alt={link.href} />
+                    </a>)}
+            </div>
         </div>
     )
 }

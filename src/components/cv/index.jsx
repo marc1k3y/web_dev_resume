@@ -29,7 +29,8 @@ export const Cv = () => {
             <Document file={pdf} className={ss.document}>
                 <Page pageNumber={1} />
             </Document>
-            <div className={ss.langInfo}>
+            <div className={ss.langInfo}
+                style={{ color: theme === "light" ? light.cvInfoLang : dark.cvInfoLang }}>
                 <img src={info} alt="info" />
                 {language === "ru" ? translate.cvLangInfo.ru : translate.cvLangInfo.en}
             </div>

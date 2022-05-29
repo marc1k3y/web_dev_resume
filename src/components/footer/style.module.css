@@ -1,11 +1,23 @@
 .wrapper {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     gap: 10px;
-    padding: 30px;
+    padding: 10px;
 }
 
-.wrapper img {
+.socialLinks {
+    display: flex;
+    gap: 10px;
+}
+
+.socialLinks img {
     width: 30px;
+}
+
+.project a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
 }
