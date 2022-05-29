@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/web_dev_resume/static/css/main.d4c89dee.css",
-    "main.js": "/web_dev_resume/static/js/main.1d529a18.js",
+    "main.css": "/web_dev_resume/static/css/main.e42fb4c3.css",
+    "main.js": "/web_dev_resume/static/js/main.46243c6d.js",
     "static/media/naberezhnykh_mark.pdf": "/web_dev_resume/static/media/naberezhnykh_mark.eaa34c1ddd804a0b833c.pdf",
     "static/media/avatar.jpg": "/web_dev_resume/static/media/avatar.b6d1b431ccbff8bf7fe0.jpg",
     "static/media/codewars.svg": "/web_dev_resume/static/media/codewars.89fb91eacea6deaf6171c02bea9851ef.svg",
@@ -13,11 +13,11 @@
     "static/media/sand_clock.svg": "/web_dev_resume/static/media/sand_clock.591e4d590f4b6d8338125ee4f707d6d5.svg",
     "index.html": "/web_dev_resume/index.html",
     "static/media/github.svg": "/web_dev_resume/static/media/github.76a3f4b4aca35dfb298e85d4276b8420.svg",
-    "main.d4c89dee.css.map": "/web_dev_resume/static/css/main.d4c89dee.css.map",
-    "main.1d529a18.js.map": "/web_dev_resume/static/js/main.1d529a18.js.map"
+    "main.e42fb4c3.css.map": "/web_dev_resume/static/css/main.e42fb4c3.css.map",
+    "main.46243c6d.js.map": "/web_dev_resume/static/js/main.46243c6d.js.map"
   },
   "entrypoints": [
-    "static/css/main.d4c89dee.css",
-    "static/js/main.1d529a18.js"
+    "static/css/main.e42fb4c3.css",
+    "static/js/main.46243c6d.js"
   ]
 }
