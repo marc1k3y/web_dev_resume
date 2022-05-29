@@ -1,19 +1,23 @@
 {
   "files": {
-    "main.css": "/web_dev_resume/static/css/main.c01e215e.css",
-    "main.js": "/web_dev_resume/static/js/main.7948730b.js",
+    "main.css": "/web_dev_resume/static/css/main.d4c89dee.css",
+    "main.js": "/web_dev_resume/static/js/main.1d529a18.js",
     "static/media/naberezhnykh_mark.pdf": "/web_dev_resume/static/media/naberezhnykh_mark.eaa34c1ddd804a0b833c.pdf",
     "static/media/avatar.jpg": "/web_dev_resume/static/media/avatar.b6d1b431ccbff8bf7fe0.jpg",
+    "static/media/codewars.svg": "/web_dev_resume/static/media/codewars.89fb91eacea6deaf6171c02bea9851ef.svg",
     "static/media/react.svg": "/web_dev_resume/static/media/react.fdd3331d261ad6d5e1c92448737aa2aa.svg",
     "static/media/light.svg": "/web_dev_resume/static/media/light.ef6fcd8985385e1e5f94e7cd606084fd.svg",
     "static/media/dark.svg": "/web_dev_resume/static/media/dark.7a1bc04af6d0b5c1e9957ce86222ab3e.svg",
+    "static/media/instagram.svg": "/web_dev_resume/static/media/instagram.3c28ceaa0dcf2d5368006ed32d7f0040.svg",
+    "static/media/info.svg": "/web_dev_resume/static/media/info.8a66c80a02f7b8fb3ca5743a1185765b.svg",
     "static/media/sand_clock.svg": "/web_dev_resume/static/media/sand_clock.591e4d590f4b6d8338125ee4f707d6d5.svg",
     "index.html": "/web_dev_resume/index.html",
-    "main.c01e215e.css.map": "/web_dev_resume/static/css/main.c01e215e.css.map",
-    "main.7948730b.js.map": "/web_dev_resume/static/js/main.7948730b.js.map"
+    "static/media/github.svg": "/web_dev_resume/static/media/github.76a3f4b4aca35dfb298e85d4276b8420.svg",
+    "main.d4c89dee.css.map": "/web_dev_resume/static/css/main.d4c89dee.css.map",
+    "main.1d529a18.js.map": "/web_dev_resume/static/js/main.1d529a18.js.map"
   },
   "entrypoints": [
-    "static/css/main.c01e215e.css",
-    "static/js/main.7948730b.js"
+    "static/css/main.d4c89dee.css",
+    "static/js/main.1d529a18.js"
   ]
 }
