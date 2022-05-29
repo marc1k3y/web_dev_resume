@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/web_dev_resume/static/css/main.1bfd04ec.css",
-    "main.js": "/web_dev_resume/static/js/main.32fa7f16.js",
+    "main.css": "/web_dev_resume/static/css/main.c01e215e.css",
+    "main.js": "/web_dev_resume/static/js/main.7948730b.js",
     "static/media/naberezhnykh_mark.pdf": "/web_dev_resume/static/media/naberezhnykh_mark.eaa34c1ddd804a0b833c.pdf",
     "static/media/avatar.jpg": "/web_dev_resume/static/media/avatar.b6d1b431ccbff8bf7fe0.jpg",
     "static/media/react.svg": "/web_dev_resume/static/media/react.fdd3331d261ad6d5e1c92448737aa2aa.svg",
@@ -9,11 +9,11 @@
     "static/media/dark.svg": "/web_dev_resume/static/media/dark.7a1bc04af6d0b5c1e9957ce86222ab3e.svg",
     "static/media/sand_clock.svg": "/web_dev_resume/static/media/sand_clock.591e4d590f4b6d8338125ee4f707d6d5.svg",
     "index.html": "/web_dev_resume/index.html",
-    "main.1bfd04ec.css.map": "/web_dev_resume/static/css/main.1bfd04ec.css.map",
-    "main.32fa7f16.js.map": "/web_dev_resume/static/js/main.32fa7f16.js.map"
+    "main.c01e215e.css.map": "/web_dev_resume/static/css/main.c01e215e.css.map",
+    "main.7948730b.js.map": "/web_dev_resume/static/js/main.7948730b.js.map"
   },
   "entrypoints": [
-    "static/css/main.1bfd04ec.css",
-    "static/js/main.32fa7f16.js"
+    "static/css/main.c01e215e.css",
+    "static/js/main.7948730b.js"
   ]
 }
