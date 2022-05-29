@@ -15,7 +15,9 @@ export const dark = {
     infoTitleFont: "#16324F",
     infoBtnFont: "#3E92CC",
     infoFont: "#3E92CC",
-    downloadCvFont: "#3E92CC"
+    downloadCvBack: "#3E92CC",
+    downloadCvFont: "#16324F",
+    footerBack: "#3E92CC"
 }
 
 export const light = {
@@ -35,5 +37,7 @@ export const light = {
     infoTitleFont: "#F5CB5C",
     infoBtnFont: "#333533",
     infoFont: "#242423",
-    downloadCvFont: "#242423"
+    downloadCvBack: "#333533",
+    downloadCvFont: "#F5CB5C",
+    footerBack: "#F5CB5C"
 }

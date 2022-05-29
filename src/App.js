@@ -8,6 +8,7 @@ import { useDispatch, useSelector } from "react-redux"
 import { dark, light } from "./components/themer"
 import { setDarkAction } from "./redux/theme/actions"
 import { setEnAction } from "./redux/translate/actions"
+import { Footer } from "./components/footer"
 
 export default function App() {
   const dispatch = useDispatch()
@@ -22,15 +23,13 @@ export default function App() {
   return (
     <div className="app">
       <Header />
-      <div
-        className="content"
-        style={{
-          backgroundColor: theme === "light" ? light.mainBack : dark.mainBack,
-        }}>
+      <div className="content"
+        style={{ backgroundColor: theme === "light" ? light.mainBack : dark.mainBack }}>
         <Candidate />
         <Info />
         <Cv />
       </div>
+      <Footer />
     </div>
   )
 }

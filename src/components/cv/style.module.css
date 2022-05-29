@@ -9,13 +9,26 @@
     align-items: center;
 }
 
+.langInfo {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    padding: 10px;
+    margin-bottom: -30px;
+}
+
+.langInfo img {
+    width: 20px;
+}
+
 .wrapper>button {
     padding: 10px 20px;
-    background-color: transparent;
     border: none;
     font-size: 18px;
     font-weight: bold;
     cursor: pointer;
+    border-radius: 20px;
+    margin: 5px;
 }
 
 @media screen and (max-width: 768px) {
