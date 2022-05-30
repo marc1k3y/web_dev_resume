@@ -3,7 +3,8 @@ import ss from "./style.module.css"
 import { saveAs } from "file-saver"
 import { Document, Page } from "react-pdf"
 import info from "../../assets/info.svg"
-import pdf from "../../assets/naberezhnykh_mark.pdf"
+import resume_ru from "../../assets/resume_ru.pdf"
+import resume_en from "../../assets/resume_en.pdf"
 import { useSelector } from "react-redux"
 import { dark, light } from "../themer"
 import { translate } from "../translate"
@@ -14,7 +15,8 @@ export const Cv = () => {
 
     function downloadCv() {
         saveAs(
-            pdf, "Mark_Naberezhnykh.pdf"
+            language === "ru" ? resume_ru : resume_en,
+            "Mark_Naberezhnykh.pdf"
         )
     }
 
@@ -26,7 +28,9 @@ export const Cv = () => {
                     ? `0 0 10px 0px ${light.bigBlockShadow}`
                     : `0 0 10px 0px ${dark.bigBlockShadow}`
             }}>
-            <Document file={pdf} className={ss.document}>
+            <Document
+                className={ss.document}
+                file={language === "ru" ? resume_ru : resume_en}>
                 <Page pageNumber={1} />
             </Document>
             <div className={ss.langInfo}
